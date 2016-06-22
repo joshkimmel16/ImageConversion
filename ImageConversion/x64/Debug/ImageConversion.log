@@ -1,0 +1,42 @@
+﻿Build started 4/25/2016 1:12:26 PM.
+     1>Project "C:\Users\josh.kimmel\Documents\Visual Studio 2012\Projects\ImageConversion\ImageConversion\ImageConversion.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\josh.kimmel\Documents\Visual Studio 2012\Projects\TiffProcessing\TiffProcessing" /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt bmpimage.cpp
+         bmpimage.cpp
+     1>bmpimage.cpp(1021): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ImageConv.cpp Luminosity.cpp main.cpp Images.cpp kMeans.cpp
+         kMeans.cpp
+     1>kMeans.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>kMeans.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>kMeans.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>kMeans.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+     1>kMeans.cpp(190): warning C4018: '<' : signed/unsigned mismatch
+     1>kMeans.cpp(195): warning C4018: '<' : signed/unsigned mismatch
+     1>kMeans.cpp(231): warning C4018: '<' : signed/unsigned mismatch
+     1>kMeans.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+     1>kMeans.cpp(265): warning C4018: '<' : signed/unsigned mismatch
+     1>kMeans.cpp(267): warning C4018: '<' : signed/unsigned mismatch
+         Images.cpp
+     1>Images.cpp(195): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Images.cpp(228): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Images.cpp(285): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Images.cpp(346): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>Images.cpp(356): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>Images.cpp(357): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         main.cpp
+         Luminosity.cpp
+         ImageConv.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\josh.kimmel\Documents\Visual Studio 2012\Projects\ImageConversion\x64\Debug\ImageConversion.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\josh.kimmel\Documents\Visual Studio 2012\Projects\ImageConversion\x64\Debug\ImageConversion.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\josh.kimmel\Documents\Visual Studio 2012\Projects\ImageConversion\x64\Debug\ImageConversion.lib" /MACHINE:X64 x64\Debug\bmpimage.obj
+         x64\Debug\ImageConv.obj
+         x64\Debug\Luminosity.obj
+         x64\Debug\main.obj
+         x64\Debug\Images.obj
+         x64\Debug\kMeans.obj
+         ImageConversion.vcxproj -> C:\Users\josh.kimmel\Documents\Visual Studio 2012\Projects\ImageConversion\x64\Debug\ImageConversion.exe
+     1>Done Building Project "C:\Users\josh.kimmel\Documents\Visual Studio 2012\Projects\ImageConversion\ImageConversion\ImageConversion.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.55
